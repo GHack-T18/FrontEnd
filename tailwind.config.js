@@ -8,8 +8,20 @@ export default {
   theme: {
     extend: {
       colors:{
-       
-        
+        "pinkii":"#F2CB92",
+        "page-col":"#000002",
+        "sidebar":"#FCF9FC",
+        "dash-col":"#FFFFFF",
+        "item-col":"#132D46",
+        "person-col":"#191E29",
+        "delete":"#CD2929",
+        "search-col":"#E4EEF2",
+        "filter":"#25546D",
+        "filter-after":"#183646",
+         "settings-col":" #173857",
+         "admin-bg":"#E4EEF2",
+         "text-col":"#191E29",
+         "light-white": "rgba(255,255,255,0.17)",
       },
       screens: {
         'xs': '468px',

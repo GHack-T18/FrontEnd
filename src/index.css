@@ -2,3 +2,100 @@
 @tailwind components;
 @tailwind utilities;
 /* font.css */
+
+@font-face {
+    font-family: 'TTCommons-Medium';
+    src: local('TTCommons-Medium'), url('./Font/TT Commons Medium.otf') format('woff2');
+    /* Add additional font formats if necessary */
+  }
+body
+{
+    font-family: 'TTCommons-Medium';
+}
+  
+  /* Frontend\src\Font\TT Commons Medium.otf */
+@keyframes big 
+{
+    0%
+    {
+        transform: scaleY(1);
+    }
+    100% 
+    {
+        transform: scale(1.5);
+    }
+}
+.load
+{
+padding: 20px; 
+display: flex;
+justify-content: center;
+}
+.load div 
+{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: #132D46;
+    margin-left: 10px;
+animation-name: up_down;
+animation-duration: 0.5s;
+animation-iteration-count: infinite;
+                   animation-direction: alternate;
+
+}
+.load div:nth-child(2)
+{
+    animation-delay: 0.2s;
+}
+.load div:nth-child(3)
+{
+    animation-delay: 0.4s;
+}
+
+@keyframes up_down {
+    0% 
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: .5;
+        transform: translateY(10px);
+    }
+    
+}
+.app
+{
+    background-image: url('./assets/bg-new.png');
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: repeat;
+}
+.app2
+{
+    background-image: url('./assets/bg.png');
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: repeat;
+}
+.home
+{
+    background-image: url('./assets/background2.png');
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: repeat;
+}
+
+.admin
+{
+    background-image: url('./assets/admin2.png');
+    background-size: cover;  
+    background-position:center; 
+    background-repeat: repeat; 
+    
+}
+.border-zero:focus
+{
+ border: 0px;
+}
