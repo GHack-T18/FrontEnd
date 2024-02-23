@@ -25,10 +25,11 @@ function Sidebar() {
             <h1>Logooo</h1>
         </div>
       <ul className="flex flex-col space-y-10 justify-center items-center">
+        <Link to="/Dashboard">
       <li className="justify-center items-center group " onClick={() => setSelectedItem('dashboard')}>
                     <img src={selectedItem === 'dashboard' ? Cdashboard : dashboard} className="group-hover:hidden" alt="Dashboard" />
                     <img src={DashboardColored} className="group-hover:block hidden " alt="Dashboard Colored" />
-                </li>
+                </li></Link>
                 <li className="justify-center items-center group" onClick={() => setSelectedItem('message')}>
                     <img src={selectedItem === 'message' ? CMessage : Message} className="group-hover:hidden" alt="Message" />
                     <img src={CMessage} className="group-hover:block hidden" alt="Message Colored" />
@@ -48,10 +49,11 @@ function Sidebar() {
                 </li>
         </ul>
 <ul>
+    <Link to="/Home">
 <li className="justify-center items-center group mt-16" onClick={() => setSelectedItem('logout')}>
                     <img src={selectedItem === 'logout' ? CLogout : Logout} className="group-hover:hidden" alt="Logout" />
                     <img src={CLogout} className="group-hover:block hidden" alt="Logout Colored" />
-                </li>
+                </li></Link>
 </ul>
     </div>
   );

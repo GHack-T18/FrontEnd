@@ -22,8 +22,8 @@ function Chat() {
           <FilterC />
           <Lista />
         </div>
-        <div className="w-3/5 border-x-2 border-page-col border-opacity-15 flex flex-col ">
-            <div className="flex flex-row border-y-2 border-page-col border-opacity-15 h-1/5 p-10">
+        <div className="w-3/5 border-x-2 border-page-col border-opacity-10 flex flex-col ">
+            <div className="flex flex-row border-y-2 border-page-col border-opacity-10 h-1/5 p-10">
                   <div>
                     <img src={Cat} className="h-16" />
                   </div>

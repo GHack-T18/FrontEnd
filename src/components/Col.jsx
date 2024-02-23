@@ -27,11 +27,12 @@ function Col({ mail, mdp }) {
         <div className="  w-full grid justify-items-end ">
           <h2 className="font-medium text-xl text-pinkii underline cursor-pointer">Forgot password?</h2>
         </div>
+        <Link to="/Dashboard" className="w-full">
         <button
         className='justify-center items-center text-xl w-full h-12 sm:h-16 bg-pinkii text-dash-col rounded-[4px] '
       >
           Login
-        </button>
+        </button></Link>
         <div className="flex flex-row justify-center items-center font-medium text-xl space-x-4  w-full">
             <h2>Don’t have an account? </h2>
             <Link to="/SignUp">
