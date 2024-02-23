@@ -12,6 +12,7 @@ import LogIn from './pages/LogIn';
 import SignUp from './pages/SignUp';
 import Home from './pages/Home';
 import Chat from './pages/Chat';
+import Email from './pages/Email';
 
 
 
@@ -28,12 +29,14 @@ function App() {
 
      <Router>
      <Routes> 
-    <Route path='/' element={<Chat/>}/>
+    <Route path='/' element={<Home/>}/>
     <Route path='/SignUp' element={<SignUp/>}/>
     <Route path='/LogIn' element={<LogIn/>}/>
     <Route path='/Dashboard' element={<Dashboard/>}/>
     <Route path='/Chat' element={<Chat/>}/>
     <Route path='/Home' element={<Home/>}/>
+    <Route path='/Email' element={<Email/>}/>
+
 
 
 

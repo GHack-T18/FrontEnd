@@ -13,7 +13,7 @@ export const LittleSideBar = ({ Name, img }) => {
   };
 
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col absolute top-4 right-9'>
       <div className='p-3 flex flex-row space-x-3 cursor-pointer w-full items-center justify-center' onClick={handleRotation}>
         <h1 className='text-xl font-normal'>{Name}</h1>
         <div>

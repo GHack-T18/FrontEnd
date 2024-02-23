@@ -30,10 +30,11 @@ function Sidebar() {
                     <img src={selectedItem === 'dashboard' ? Cdashboard : dashboard} className="group-hover:hidden" alt="Dashboard" />
                     <img src={DashboardColored} className="group-hover:block hidden " alt="Dashboard Colored" />
                 </li></Link>
+                <Link to="/Email">
                 <li className="justify-center items-center group" onClick={() => setSelectedItem('message')}>
                     <img src={selectedItem === 'message' ? CMessage : Message} className="group-hover:hidden" alt="Message" />
                     <img src={CMessage} className="group-hover:block hidden" alt="Message Colored" />
-                </li>
+                </li> </Link>
                 <Link to="/Chat" >
                 <li className="justify-center items-center group" onClick={() => setSelectedItem('chat')}>
                     <img src={selectedItem === 'chat' ? CChat : Chat} className="group-hover:hidden" alt="Chat" />

@@ -38,7 +38,7 @@ function Chat() {
               </div>
         <div className=" items-center px-10 flex flex-col">
            <LittleSideBar Name="Ikram Debbih" img={My} />
-           <div className="flex flex-col justify-center items-center mt-16">
+           <div className="flex flex-col justify-center items-center mt-44">
                 <div>
                 <img src={BigCat} className="" /> 
                 </div>
