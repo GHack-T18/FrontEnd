@@ -25,7 +25,7 @@ function SignUp() {
         </div>
         <div className="h-screen w-[90%] flex  justify-end items-center">
             <div className=" absolute left-[50%]  top-[10%]">
-                <img src={Phone}  alt="Kora Logo" className="" />
+                <img src={Phone}  alt="Phone Logo" className="" />
             </div>
         </div>
     </div>

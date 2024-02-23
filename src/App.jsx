@@ -10,6 +10,7 @@ import { useState } from 'react';
 import Dashboard from './pages/Dashboard';
 import LogIn from './pages/LogIn';
 import SignUp from './pages/SignUp';
+import Home from './pages/Home';
 
 
 
@@ -26,7 +27,7 @@ function App() {
 
      <Router>
      <Routes> 
-    <Route path='/' element={<SignUp/>}/>
+    <Route path='/' element={<Home/>}/>
 
        </Routes>    
     </Router>
