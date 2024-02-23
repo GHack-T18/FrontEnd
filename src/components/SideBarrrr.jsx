@@ -13,6 +13,7 @@ import Chat from '../assets/Chat.svg'
 import CChat from '../assets/CChat.svg';
 import Logout from '../assets/Logout.svg';
 import CLogout from '../assets/CLogout.svg';
+import { Link } from 'react-router-dom';
 
 
 function Sidebar() {
@@ -32,10 +33,11 @@ function Sidebar() {
                     <img src={selectedItem === 'message' ? CMessage : Message} className="group-hover:hidden" alt="Message" />
                     <img src={CMessage} className="group-hover:block hidden" alt="Message Colored" />
                 </li>
+                <Link to="/Chat" >
                 <li className="justify-center items-center group" onClick={() => setSelectedItem('chat')}>
                     <img src={selectedItem === 'chat' ? CChat : Chat} className="group-hover:hidden" alt="Chat" />
                     <img src={CChat} className="group-hover:block hidden" alt="Chat Colored" />
-                </li>
+                </li> </Link>
                 <li className="justify-center items-center group" onClick={() => setSelectedItem('User')}>
                     <img src={selectedItem === 'User' ? CUser : User} className="group-hover:hidden" alt="User" />
                     <img src={CUser} className="group-hover:block hidden" alt="User Colored" />
