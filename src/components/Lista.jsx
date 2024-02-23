@@ -28,7 +28,7 @@ function Lista() {
             <p className="text-pinkii">{item.LastMessage}</p>
           </div>
           {item.Nb > 0 && ( // Conditionally render the div if Nb is greater than 0
-            <div className="absolute right-2">
+            <div className="absolute right-1">
               <div className="bg-pinkii rounded-full w-6 h-6 flex items-center justify-center">{item.Nb}</div>
             </div>
           )}
@@ -51,7 +51,7 @@ function Lista() {
             <p className="text-pinkii">{item.LastMessage}</p>
           </div>
           {item.Nb > 0 && ( // Conditionally render the div if Nb is greater than 0
-            <div className="absolute right-2">
+            <div className="absolute right-1">
               <div className="bg-pinkii rounded-full w-6 h-6 flex items-center justify-center">{item.Nb}</div>
             </div>
           )}
@@ -74,7 +74,7 @@ function Lista() {
             <p className="text-pinkii">{item.LastMessage}</p>
           </div>
           {item.Nb > 0 && ( // Conditionally render the div if Nb is greater than 0
-            <div className="absolute right-2">
+            <div className="absolute right-1">
               <div className="bg-pinkii rounded-full w-6 h-6 flex items-center justify-center">{item.Nb}</div>
             </div>
           )}
