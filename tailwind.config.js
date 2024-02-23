@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       colors:{
-        "pinkii":"#F2CB92",
+        "pinkii":"#F9C04F",
         "page-col":"#000002",
         "sidebar":"#FCF9FC",
         "dash-col":"#FFFFFF",

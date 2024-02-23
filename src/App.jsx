@@ -8,6 +8,7 @@ import { useContext } from 'react'
 import { createContext } from 'react'
 import { useState } from 'react'; 
 import Dashboard from './pages/Dashboard';
+import LogIn from './pages/LogIn';
 
 
 export const Appcontext2=createContext();
@@ -23,7 +24,7 @@ function App() {
 
      <Router>
      <Routes> 
-    <Route path='/' element={<Dashboard/>}/>
+    <Route path='/' element={<LogIn/>}/>
 
        </Routes>    
     </Router>
