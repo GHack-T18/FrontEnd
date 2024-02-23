@@ -22,6 +22,7 @@ export default {
          "admin-bg":"#E4EEF2",
          "text-col":"#191E29",
          "light-white": "rgba(255,255,255,0.17)",
+         "green": "#22C014",
       },
       screens: {
         'xs': '468px',
