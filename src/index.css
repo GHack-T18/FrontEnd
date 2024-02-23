@@ -65,36 +65,31 @@ animation-iteration-count: infinite;
     }
     
 }
-.app
-{
-    background-image: url('./assets/bg-new.png');
-    background-size: cover;  
-    background-position: center; 
-    background-repeat: repeat;
-}
-.app2
-{
-    background-image: url('./assets/bg.png');
-    background-size: cover;  
-    background-position: center; 
-    background-repeat: repeat;
-}
+
 .home
 {
-    background-image: url('./assets/background2.png');
+    background-image: url('./assets/Background.png');
     background-size: cover;  
     background-position: center; 
     background-repeat: repeat;
 }
 
-.admin
+.Create
 {
-    background-image: url('./assets/admin2.png');
+    background-image: url('./assets/Create.png');
     background-size: cover;  
-    background-position:center; 
-    background-repeat: repeat; 
-    
+    background-position: center; 
+    background-repeat: repeat;
 }
+.Log
+{
+    background-image: url('./assets/Log.png');
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: repeat;
+}
+
+
 .border-zero:focus
 {
  border: 0px;
