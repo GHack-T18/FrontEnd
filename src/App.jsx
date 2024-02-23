@@ -9,6 +9,8 @@ import { createContext } from 'react'
 import { useState } from 'react'; 
 import Dashboard from './pages/Dashboard';
 import LogIn from './pages/LogIn';
+import SignUp from './pages/SignUp';
+
 
 
 export const Appcontext2=createContext();
@@ -24,7 +26,7 @@ function App() {
 
      <Router>
      <Routes> 
-    <Route path='/' element={<LogIn/>}/>
+    <Route path='/' element={<SignUp/>}/>
 
        </Routes>    
     </Router>
